@@ -47,9 +47,9 @@ GNU General Public License for more details.
 // MSDN: "Because window classes are process specific, window class names need to be unique only within
 // the same process. Also, because class names occupy space in the system's private atom table, you
 // should keep class name strings as short a possible:
-#define WINDOW_CLASS_MAIN _T("AutoHotkey")
-#define WINDOW_CLASS_SPLASH _T("AutoHotkey2")
-#define WINDOW_CLASS_GUI _T("AutoHotkeyGUI") // There's a section in Script::Edit() that relies on these all starting with "AutoHotkey".
+#define WINDOW_CLASS_MAIN _T("Swift")
+#define WINDOW_CLASS_SPLASH _T("Swift2")
+#define WINDOW_CLASS_GUI _T("SwiftGUI") // There's a section in Script::Edit() that relies on these all starting with "AutoHotkey".
 
 #define EXT_AUTOHOTKEY _T(".ahk")
 
